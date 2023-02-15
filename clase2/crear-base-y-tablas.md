@@ -16,13 +16,15 @@
 
 > Para crear una tabla uzamos el comando "CREATE TABLE"
 
-> *** Fórmula *** 
+> ***Sintáxis*** 
 
     CREATE TABLE nombreTabla (  
         campo tipoDato características,
         campo tipoDato características,
         campo tipoDato características
     );  
+
+> ***Ejemplo***
 
     CREATE TABLE billeteras (
         id tinyint unsigned auto_increment primary key not null,  
