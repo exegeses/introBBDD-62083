@@ -27,5 +27,5 @@ CREATE TABLE productos (
                FOREIGN KEY (idMarca)
                    REFERENCES marcas (idMarca),
                FOREIGN KEY (idCategoria)
-                   REFERENCES categorias (idCategoria),
+                   REFERENCES categorias (idCategoria)
 );
